@@ -1,0 +1,490 @@
+.navbar{
+    font-family: serif;
+}
+.middle{
+  padding-top: 50px;
+ color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px red;
+
+}
+.in{
+    padding-left: 210px;
+}
+.bg-im{
+  
+    /* The image used */
+    background-image: url("mahi.jpg");
+    min-height: 320px;
+    width: 400px;
+    padding-left: 500px;
+    border-radius: 50%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .bg-i{
+  
+    /* The image used */
+    background-image: url("Mahesh\ Bro\ 20190409_145003.jpg");
+    min-height: 320px;
+    width: 400px;
+    padding-left: 500px;
+    border-radius: 50%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.bg-img{
+  
+    /* The image used */
+    background-image: url("contact-us.png");
+    min-height: 520px;
+    width: 600px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .bg-imgs {
+       
+    background-image: url("r6.jpg");
+    min-height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.form-control {
+            width: 150px;
+           margin: 10px; 
+}
+ul{
+    font-size: x-large;
+}
+.game{
+    color:white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px black;
+}
+.head{
+    color:white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px red;
+}
+img{
+    border-radius:10px;
+}
+ol{
+    text-align: center;
+}
+ol li{
+  display: inline-block;
+    cursor: pointer;
+    font-size: 28px;
+    padding-top: 50px;
+}
+ol li a{
+    color: white;
+    margin: 10px;
+}
+.down{
+            text-align: center;
+            display: block;
+            color: white;
+            font-size: 25px;
+            margin: 50px;
+}
+ 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin:20px 2px;
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+       border-radius:50% ;
+       float:right;
+    background:#3B5998;
+    color: white;
+  }
+  .fa-youtube {
+    border-radius:50% ;
+    float:right;
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    border-radius:50% ;
+    float:right;
+    background: #125688;
+    color: white;
+  }
+  .fa-twitter {
+    border-radius:50% ;
+    float:right;
+    background: #55ACEE;
+    color: white;
+  }
+  .contact{
+    padding-right: 30px;
+  }
+ .about{
+      margin-top: 60px;
+ }
+ .inside{
+     font-size: 30px;
+ }
+@media (max-width:1200px){
+    .navbar{
+        width: 1320px ;
+    }
+}
+    @media (max-width:1442px){
+        .navbar{
+            width: 1490px ;
+        }
+        .in{
+      padding-left: 200px;
+      font-size: 40px;
+        }
+    .bg-imgs {
+        background-image: url("r6.jpg");
+        min-height:  765px;
+        width: 1490px ;
+         
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      .width{
+        width: 1490px;
+      }
+      .inside{
+        font-size: 30px;
+    } 
+}
+@media (max-width:1026px){
+     
+    .inside{
+        font-size: 30px;
+    } 
+    .navbar{
+        width: 1450px ;
+    }
+    .bg-imgs {
+       
+        background-image: url("r6.jpg");
+        min-height:  765px;
+        width: 1450px ;
+         
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      .width{
+        width: 1450px;
+      }
+      
+  .in{
+    
+    padding-left: 200px;
+    font-size: 40px;
+}
+}
+@media (max-width:992px){
+    .inside{
+        font-size: 30px;
+    } 
+    
+  .in{
+  
+    padding-left: 200px;
+    font-size: 40px;
+}
+}
+@media (max-width:770px){
+    .navbar{
+        width: 1350px ;
+    }
+    .bg-imgs {
+       
+        background-image: url("r6.jpg");
+        min-height:  765px;
+        width: 1350px ;
+         
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      .width{
+        width: 1350px;
+      }
+      .inside{
+        font-size: 30px;
+    } 
+    
+  .in{
+    
+    padding-left: 200px;
+    font-size: 40px;
+}
+}
+@media (max-width:767px){
+    .car{
+        position: relative;
+        width: 170px;
+    }
+    .flip-card{
+        width: 700px;
+        height:600px;
+        perspective: 4000px;
+        cursor: pointer;
+    }
+    .navbar{
+        width: 1300px;
+    }
+    .bg-imgs{
+        
+        background-image: url("r6.jpg");
+        min-height: 720px;
+        width:1300px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 30px;
+}  
+.logo{
+    font-size: 50px;
+}
+.width{
+    width: 1300px;
+}
+
+.in{
+   
+    padding-left: 200px;
+    font-size: 40px;
+}
+}
+@media (max-width:576px){
+    .navbar{
+        width: 1220px;
+    }
+    .bg-imgs{
+       
+        background-image: url("r6.jpg");
+        min-height: 920px;
+        width: 1220px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 30px;
+}  
+.logo{
+    font-size: 70px;
+} 
+  .width {
+      width: 1220px;
+  }
+  
+  .in{
+   
+    padding-left: 200px;
+    font-size: 40px;
+}
+}
+@media (max-width:530px){
+    .navbar{
+        width: 1220px;
+    }
+    .bg-imgs{
+       
+        background-image: url("r6.jpg");
+        min-height: 920px;
+        width: 1220px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 30px;
+}  
+.logo{
+    font-size: 70px;
+} 
+  .width {
+      width: 1220px;
+  }
+  
+  .in{
+    
+    padding-left: 200px;
+    font-size: 40px;
+}
+}
+@media (max-width:427px){
+    .navbar{
+        width: 1320px;
+    }
+    .bg-imgs{
+       
+        background-image: url("r6.jpg");
+        min-height: 920px;
+        width: 1320px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 40px;
+}  
+.logo{
+    font-size: 70px;
+} 
+  .width {
+      width: 1320px;
+  }
+  
+  .in{
+   
+    padding-left: 200px;
+    font-size: 40px;
+}
+}
+
+@media (max-width:377px){
+    .navbar{
+        width: 1310px;
+    }
+    .bg-imgs{
+       
+        background-image: url("r6.jpg");
+        min-height: 920px;
+        width: 1310px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 40px;
+}  
+.logo{
+    font-size: 70px;
+} 
+  .width {
+      width: 1310px;
+  }
+  
+  .in{
+     
+    padding-left: 200px;
+    font-size: 40px;
+}
+}
+
+@media (max-width:322px){
+    .navbar{
+        width: 1270px;
+
+    }
+    .bg-imgs{
+       
+        background-image: url("r6.jpg");
+        min-height: 920px;
+        width: 1270px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 70px;
+}  
+.logo{
+    font-size: 70px;
+} 
+  .width {
+      width: 1270px;
+      height: 500px;
+  }
+  .bg-im{
+  
+    /* The image used */
+    background-image: url("mahi.jpg");
+    min-height: 520px;
+    width: 600px;
+    border-radius: 50%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .bg-i{
+  float: right;
+    /* The image used */
+    background-image: url("Mahesh\ Bro\ 20190409_145003.jpg");
+    min-height: 520px;
+    width: 600px;
+    border-radius: 50%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .in{
+      padding-left: 200px;
+      font-size: 40px;
+  }
+  .bg-img{
+  
+    /* The image used */
+    background-image: url("contact-us.png");
+    min-height: 520px;
+    width: 600px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .form-control {
+    width: 250px;
+    height: 60px;
+   margin: 10px; 
+}
+.ba{
+    height: 60px;
+}
+}

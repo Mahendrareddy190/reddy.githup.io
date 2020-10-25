@@ -1,0 +1,103 @@
+
+ #GAMESMOVIES{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 200px;
+    color: #ffffff;
+    text-shadow: 2px 2px red;
+ }
+.mahi{
+margin-bottom:100px;
+margin-right: 400px;
+margin-left: 400px;
+width: 300px;
+height : 300px;
+border-radius: 15px;
+background-image: linear-gradient(180deg,red,blue);
+/* background-color: rgb(235, 125, 205); */
+align-content: center; }  
+#user{
+width: 250px;
+height: 25px;
+top:50%;
+font-size: 15px;
+transform: translateY(-50%);
+margin-top: 50px;
+}
+#pass{
+width: 250px;
+height: 25px;
+font-size:15px;
+/* transform: translateY(-50%); */
+}
+/* form #user input:focus ~ label,
+form #field input:valid ~ label{
+  top: 0%;
+  transform: translateY(-50%);
+} */
+#click{
+        height: 30px;
+        width: 60px;    
+}
+     /* creat account css down */
+#GAMES{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color:#ffffff;
+    text-shadow: 2px 2px red;
+}
+#login{
+    font-size:30px;
+    color:red;
+ }
+#name{
+    margin-top: 50px;
+}
+.account{
+    margin-top: 4px;
+margin-bottom:4px;
+margin-right: 400px;
+margin-left: 450px;
+width: 600px;
+height : 500px;
+border-radius: 30px;
+background-image: linear-gradient(180deg,red,blue);
+/* background-color: rgb(235, 149, 216); */
+box-shadow: rgb(43, 226, 73);
+text-align: center; 
+}
+#button{
+        color:gray;
+        padding-right: 30px;
+        padding-left: 30px;
+        text-decoration: none;
+}
+label{
+    
+    width: 120px;
+    display: inline-block;
+    text-align: left;
+}
+label.gender{
+    display: inline-block;
+    padding-right: 0px;
+
+}
+select{
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 25px;
+    border-radius: 30px;
+}
+input {
+    width: 30%;
+    height:25px ;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+   

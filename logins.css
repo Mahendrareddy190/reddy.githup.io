@@ -1,0 +1,171 @@
+*{
+     box-sizing: border-box;
+}
+.pass{
+    width: 240px;
+    height: 25px;
+    font-size:15px;
+    border-radius: 10px;
+    border:  2px solid red;
+    }
+.email{
+        width: 240px;
+        height: 25px;
+        font-size: 15px;
+        border-radius: 10px;
+        border:  2px solid red;
+        /* margin-top: 50px; */
+      }
+      
+ #GAMESMOVIES{
+   padding-left: 30px;
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff;
+    text-shadow: 2px 2px red;
+ }
+ #button{
+      margin-left: 40px;
+      margin-right: 40px;
+      text-decoration: none;
+ }
+#creat{
+      color: white;
+      text-shadow: 2px 2px red;
+     font-size: 20px;
+}
+.jumbotron{
+      width: 300px;
+}
+
+   .bg-img {
+     /* The image used */
+     background-image: url("first.jpg");
+     min-height: 720px;
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+   }
+   ol{
+     text-align: center;
+ }
+ ol li{
+   display: inline-block;
+     cursor: pointer;
+     font-size: 28px;
+     padding-top: 50px;
+ }
+ ol li a{
+     color:white;
+     margin: 10px;
+ }
+ .down{
+             text-align: center;
+             display: block;
+             color:white;
+             font-size: 25px;
+             /* padding-right: 265px; */
+             margin: 50px;
+ }
+ .jumbotron{
+     box-sizing: border-box;
+     opacity: 0.9;
+} 
+.fa {
+     padding: 20px;
+     font-size: 30px;
+     width: 60px;
+     text-align: center;
+     text-decoration: none;
+     margin:20px 2px;
+
+   }
+   
+   .fa:hover {
+       opacity: 0.7;
+   }
+   
+   .fa-facebook {
+        border-radius:50% ;
+        float:right;
+     background:#3B5998;
+     color: white;
+   }
+   .fa-youtube {
+     border-radius:50% ;
+     float:right;
+     background: #bb0000;
+     color: white;
+   }
+   
+   .fa-instagram {
+     border-radius:50% ;
+     float:right;
+     background: #125688;
+     color: white;
+   }
+   .fa-twitter {
+     border-radius:50% ;
+     float:right;
+     background: #55ACEE;
+     color: white;
+   }
+  .contact{
+    padding-right: 30px;
+  }
+ 
+@media (max-width:530px){
+  .bg-img {
+    /* The image used */
+    background-image: url("first.jpg");
+    min-height: 720px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+}
+@media (max-width:427px){
+  .bg-img {
+    /* The image used */
+    background-image: url("first.jpg");
+    min-height: 720px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}
+@media (max-width:377px){
+  .bg-img {
+    /* The image used */
+    background-image: url("first.jpg");
+    min-height: 720px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  } 
+}
+
+@media (max-width:322px){
+     
+  .bg-img {
+    /* The image used */
+    background-image: url("first.jpg");
+    min-height: 720px;
+    width: 400px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }  
+
+}

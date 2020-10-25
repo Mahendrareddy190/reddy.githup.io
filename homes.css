@@ -1,0 +1,421 @@
+.navbar{
+    font-family: serif;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("r6.jpg");
+  min-height: 720px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.middle{
+  padding-top: 50px;
+ color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px red;
+
+}
+
+.bg-imgs{
+  
+  /* The image used */
+  background-image: url("play.jpeg");
+  min-height: 720px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.form-control {
+            width: 150px;
+           margin: 10px; 
+}
+ul{
+    font-size: x-large;
+}
+.game{
+    color:white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px black;
+}
+.head{
+    color:white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px red;
+}
+img{
+    border-radius:10px;
+}
+ol{
+    text-align: center;
+}
+ol li{
+  display: inline-block;
+    cursor: pointer;
+    font-size: 28px;
+    padding-top: 50px;
+}
+ol li a{
+    color: white;
+    margin: 10px;
+}
+.down{
+            text-align: center;
+            display: block;
+            color: white;
+            font-size: 25px;
+            margin: 50px;
+}
+ 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin:20px 2px;
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+       border-radius:50% ;
+       float:right;
+    background:#3B5998;
+    color: white;
+  }
+  .fa-youtube {
+    border-radius:50% ;
+    float:right;
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    border-radius:50% ;
+    float:right;
+    background: #125688;
+    color: white;
+  }
+  .fa-twitter {
+    border-radius:50% ;
+    float:right;
+    background: #55ACEE;
+    color: white;
+  }
+  .contact{
+    padding-right: 30px;
+  }
+  @media (max-width:1200px){
+    .car{
+        position: relative;
+        width: 368px;
+    }
+}
+@media (max-width:1026px){
+    .car{
+        position: relative;
+        width: 380px;
+    }
+    
+}
+@media (max-width:992px){
+    .car{
+        position: relative;
+        width: 340px;
+    }
+    .flip-card{
+        width: 790px;
+        height:600px;
+        perspective: 4000px;
+        cursor: pointer;
+    }
+}
+@media (max-width:770px){
+    .car{
+        position: relative;
+        width: 340px;
+    }
+    .flip-card{
+        width: 690px;
+        height:600px;
+        perspective: 4000px;
+        cursor: pointer;
+    }
+    .navbar{
+        width: 765px;
+    }
+    .bg-img {
+       
+        background-image: url("r4.jpg");
+        min-height: 720px;
+        width: 765px;
+         
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 40px;
+}  
+.logo{
+    font-size: 50px;
+}
+}
+@media (max-width:767px){
+    .car{
+        position: relative;
+        width: 170px;
+    }
+    .flip-card{
+        width: 700px;
+        height:600px;
+        perspective: 4000px;
+        cursor: pointer;
+    }
+    .navbar{
+        width: 1000px;
+    }
+    .bg-img {
+        
+        background-image: url("r4.jpg");
+        min-height: 720px;
+        width:1000px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 40px;
+}  
+.logo{
+    font-size: 50px;
+}
+}
+@media (max-width:576px){
+    .car{
+        position: relative;
+        width:958px;
+    }
+    .flip-card{
+        width: 950px;
+        height:600px;
+        perspective: 4000px;
+        cursor: pointer;
+    }
+    .text{
+        text-align: center;
+        transform: translate(-50% -50%);
+        border: 1px solid red;
+        height: 363px;
+        color:wheat;
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .navbar{
+        width: 1350px;
+    }
+    .bg-img {
+         
+        background-image: url("r4.jpg");
+        min-height: 720px;
+        width: 1350px;
+      
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      .bg-imgs{
+  
+        /* The image used */
+        background-image: url("play.jpeg");
+        min-height: 720px;
+        width: 1300px;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      } 
+}
+
+@media (max-width:530px){
+    .car{
+        position: relative;
+        width: 734px;
+    }
+    .flip-card{
+        width: 730px;
+        height:600px;
+        perspective: 4000px;
+        cursor: pointer;
+    }
+    .navbar{
+        width: 925px;
+    }
+    .bg-img {
+         
+        background-image: url("r4.jpg");
+        min-height: 720px;
+        width: 925px;
+             background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 40px;
+}  
+.logo{
+    font-size: 50px;
+}
+.bg-imgs{
+  
+  /* The image used */
+  background-image: url("play.jpeg");
+  min-height: 720px;
+  width: 900px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} 
+
+}
+@media (max-width:427px){
+    .car{
+        position: relative;
+        width: 568px;
+    }
+    .flip-card{
+        width: 570px;
+        height:600px;
+        perspective: 4000px;
+        cursor: pointer;
+    }
+    .navbar{
+        width: 950px;
+    }
+    .bg-img {
+       
+        background-image: url("r4.jpg");
+        min-height: 720px;
+        width: 950px;
+         
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 40px;
+}  
+.logo{
+    font-size: 50px;
+}
+.bg-imgs{
+  
+  /* The image used */
+  background-image: url("play.jpeg");
+  min-height: 720px;
+  width: 900px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} 
+}
+@media (max-width:377px){
+    .car{
+        position: relative;
+        width: 568px;
+    }
+     
+    .navbar{
+        width: 940px;
+    }
+    .bg-img {
+         
+        background-image: url("r6.jpg");
+        min-height: 720px;
+        width: 940px;
+       
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 40px;
+}  
+.logo{
+    font-size: 50px;
+}
+.bg-imgs{
+  
+  /* The image used */
+  background-image: url("play.jpeg");
+  min-height: 720px;
+  width: 900px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} 
+}
+
+@media (max-width:322px){
+    .car{
+        position: relative;
+        width: 567px;
+    }
+     
+    .navbar{
+        width: 940px;
+    }
+    .bg-img {
+       
+        background-image: url("r6.jpg");
+        min-height: 720px;
+        width: 940px;
+       
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+.inside{
+    font-size: 70px;
+}  
+.logo{
+    font-size: 50px;
+}
+.bg-imgs{
+  
+  /* The image used */
+  background-image: url("play.jpeg");
+  min-height: 720px;
+  width: 900px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} 
+}
